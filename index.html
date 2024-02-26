@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div>
+    <h1 id="header">PIXEL ART!!</h1>
+    <div id="resolutionSet">
+        <p>ความคมชัด :</p>
+        <input type="range" min="1" max="64" id="resosli" value="16" onchange="updateResolution()">
+        <p id="rslt">16</p>
+    </div>
+    <div id="boardContainer"><div id="drawboard"></div></div>
+    <div id="buttons">
+        <div id="Brush">
+            <button id="black">ดำ</button>
+            <button id="rainbow">สีรุ้ง</button>
+            <button id="eraser">ยางลบ</button>
+        </div>
+        <div id="GridAndReset">
+            <button id="reset">รีเซ็ต</button>
+        </div>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
